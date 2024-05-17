@@ -1,0 +1,57 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0rem;
+}
+.header-container .logo a {
+  text-decoration: none;
+  color: var(--red);
+  font-family: var(--font-title);
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.header-container .header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header-container .header-buttons button {
+  padding: 1rem;
+  border: 0;
+  font-family: var(--font-regular);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.header-container .header-buttons .button-variant-primary {
+  background: var(--red-opacity);
+  color: var(--red);
+}
+.header-container .header-buttons .button-variant-secondary {
+  background: var(--chocolate-300);
+  color: var(--chocolate-600);
+  position: relative;
+}
+.header-container .header-buttons .button-variant-secondary span {
+  background: var(--chocolate-600);
+  color: white;
+  width: 23px;
+  height: 23px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+
+  position: absolute;
+  left: 2rem;
+  top: -.5rem;
+}
+
+  
+

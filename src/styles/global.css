@@ -1,0 +1,28 @@
+:root {
+  /* #B27646
+  #EDE6D9
+  #F1D6B4
+  #D6B78B
+  #5F3813
+  #6D4C41 */
+
+  --chocolate-300: #EDE6D9;
+  --chocolate-600: #5F3813;
+  --cream-light: #F1D6B4;
+
+  --red: #dc143c;
+  --red-opacity: #dc143c21;
+
+  --font-title: "Baloo 2";
+  --font-regular: "Rubik";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 55rem;
+  margin: 0 auto;
+  background: white;
+}
