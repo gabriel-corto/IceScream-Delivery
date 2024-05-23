@@ -6,6 +6,7 @@
   #5F3813
   #6D4C41 */
 
+  --chocolate-100: #f9f6ef;
   --chocolate-300: #EDE6D9;
   --chocolate-600: #5F3813;
   --cream-light: #F1D6B4;
@@ -22,7 +23,7 @@
   box-sizing: border-box;
 }
 body {
-  max-width: 55rem;
+  max-width: 60rem;
   margin: 0 auto;
   background: white;
 }

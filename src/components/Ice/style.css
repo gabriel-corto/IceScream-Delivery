@@ -1,0 +1,34 @@
+
+.ice {
+  width: 300px;
+  background: var(--chocolate-100);
+  border-radius: 8px;
+  padding: 0rem 2rem;
+}
+.ice img {
+  width: 100%;
+  margin-top: 2rem;
+}
+.ice p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ice .tags {
+  color: var(--chocolate-600);
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 999px;
+  font-family: var(--font-regular);
+  padding: 0.2px;
+}
+.ice .name {
+  font-weight: bold;
+  font-family: var(--font-regular);
+  margin-top: 2px;
+  font-size: 1.2rem;
+}
+
+.ice .ice-footer {
+  margin-top: 1rem;
+}
